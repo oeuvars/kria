@@ -34,23 +34,6 @@ kria/
 - **Persistent Storage**: SQLite database for notes storage
 - **REST API**: Clean REST endpoints for all operations
 
-## Data Models
-
-### Note
-- `id`: Unique identifier (UUID)
-- `title`: Note title (required)
-- `content`: Note content (optional)
-- `created_at`: Creation timestamp
-- `updated_at`: Last modification timestamp
-
-## API Endpoints
-
-- `GET /api/v1/notes` - Get all notes
-- `POST /api/v1/notes` - Create a new note
-- `GET /api/v1/notes/{id}` - Get a specific note
-- `PUT /api/v1/notes/{id}` - Update a note
-- `DELETE /api/v1/notes/{id}` - Delete a note
-
 ## Getting Started
 
 ### Prerequisites
